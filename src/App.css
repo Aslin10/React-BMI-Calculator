@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: "Quicksand", sans-serif;
+}
+body{
+  width:100vw;
+  height:100vh;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(89, 224, 215);
+
+}
+.error{
+  font-size: 12px;
+  color: red;
+}
+ .bmi_calculator{
+  background-color:#fff;
+  width: 550px;
+  height: 320px;
+  display: flex;
+  padding: 5px;
+  
+ }
+ .box img{
+  width: 280px;
+  height: 280px;
+  padding: 10px;
+  margin-top: 10px;
+
+
+ }
+ .Data{
+  width: 100%;
+  padding: 5px;
+  margin-top: 10px;
+  
+ }
+ .Data h1{
+  font-size: 18px;
+  font-weight: 600;
+  color: rgb(89, 66, 219);;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+ }
+ 
+ .input_holder
+ label{
+  font-size: 14px;
+  color:darkgray;
+  margin-bottom: 10px;
+  display: block;
+  
+ }
+ .input_holder input{
+  width:100%;
+  margin-bottom: 10px;
+  padding: 5px;
+  border: 1px solid rgb(116, 47, 255);
+  border-radius: 7px;
+  outline: none;
+
+}
+.footer button{
+  margin-bottom: 10px;
+  margin-right: 10px;
+  margin-top: 5px;
+  padding: 8px 10px;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #fff;
+  transition: backgroundColor 0.3s ease-in-out;
+  border: none;
+}
+button:first-child{
+  background-color: magenta;
+  outline: none;
+ 
+}
+button:nth-of-type(2){
+  background-color: rgb(44, 220, 153);
+}
+button:first-child:hover{
+  background-color:rgb(200, 11, 200) ;
+}
+button:nth-of-type(2):hover{
+  background-color: rgb(8, 182, 115);
+}
+.status{
+  border:2px solid rgb(89, 213, 248);
+  border-radius: 5px;
+  padding: 8px;
+  font-size: 15px;
+  
+}
+.bmivalue{
+  font-weight:700;
+  color:rgb(122, 17, 214);
+  margin-bottom: 5px;
+}
+.statusvalue{
+  color: rgb(179, 39, 186);
+  font-weight: 500;
+}
