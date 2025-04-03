@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Aslin10/React-BMI-Calculator/static/css/main.c90ead36.css",
+    "main.js": "/Aslin10/React-BMI-Calculator/static/js/main.56f1ce95.js",
+    "static/js/453.b1b35d16.chunk.js": "/Aslin10/React-BMI-Calculator/static/js/453.b1b35d16.chunk.js",
+    "static/media/bodymass.jpg": "/Aslin10/React-BMI-Calculator/static/media/bodymass.500501c0eda55d94645e.jpg",
+    "index.html": "/Aslin10/React-BMI-Calculator/index.html",
+    "main.c90ead36.css.map": "/Aslin10/React-BMI-Calculator/static/css/main.c90ead36.css.map",
+    "main.56f1ce95.js.map": "/Aslin10/React-BMI-Calculator/static/js/main.56f1ce95.js.map",
+    "453.b1b35d16.chunk.js.map": "/Aslin10/React-BMI-Calculator/static/js/453.b1b35d16.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c90ead36.css",
+    "static/js/main.56f1ce95.js"
+  ]
+}
